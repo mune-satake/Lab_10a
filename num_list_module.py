@@ -1,11 +1,15 @@
 def backwardslist(array):
+    print(array)
     array.reverse()
+    return array
     #array(-1::-1)
     #starts at the end and move forward
     """ Takes in a list and returns the list backwards"""
 
 
 def min(array):
+    print(min(array))
+
     """ Returns the lowest number in an list of numbers"""
 
 
@@ -17,12 +21,18 @@ def firsthalfsum(array):
 
 
 def divisibleby(array, divisor):
+    for i in array:
+        if i % divisor == 0:
+            print(i)
+        else:
+            pass
     """ Returns each element divisible by the paramater 'divisor'
 
     """
 
 
 def max(array):
+    max(array)
     """ Returns the highest number in a list of numbers """
 
 
